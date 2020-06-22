@@ -1,0 +1,4 @@
+29-08-2018 10:10:09 -> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'NICKI SURF' for key 'nom_societe'
+03-10-2018 08:06:22 -> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ASPIRE' for key 'nom_societe'
+14-05-2019 12:53:03 -> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Sportimmo' for key 'nom_societe'
+28-05-2019 10:28:20 -> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'SCCV LE SEA ONE' for key 'nom_societe'

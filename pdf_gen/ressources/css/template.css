@@ -1,0 +1,125 @@
+table {
+	border-collapse:collapse;
+	width:100%;
+	font-size: 12px;
+}
+ 
+th {
+	border-bottom:3px double black;
+	width:10%;
+	height:30px;
+}
+
+td {
+	border-bottom: 1px solid #bdbdbd;
+	height:50px;
+	text-align: center;
+}
+
+*{margin:0;padding:0} /* Enlever les margins de DOMPDF */  /* Taille du background A4 en pixel: 794px 1123px; */
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+	color:black;
+	 background: url('/pdf_gen/ressources/img/bg_facture.jpg') no-repeat center fixed;
+  	background-size: cover;
+  	margin: 0px 0px;
+  	padding: 0px 20px;
+}
+
+h2 {
+	font-weight:400; 
+	text-align: center;
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px double gray;
+	width: 300px;
+}
+
+h3 {
+	font-size: 12px;
+	font-weight: 400;
+	margin-left: 6px;
+}
+
+hr {
+	width: 20%; 
+	margin-left: 50px;
+	border: solid 1px;  
+}
+
+.tableau2 {
+	width: 40%; 
+	position: absolute; 
+	right: 0;
+	padding-right: 20px;
+}
+
+.tableau2 td {
+	height: 30px;
+	border-bottom: 1px solid black;
+}
+
+.tableau3 {
+	width: 40%;
+}
+
+.tableau3 td {
+	height: 30px; 
+	border: none;
+}
+
+.tableau3 th {
+	border-bottom: 1px solid black;
+}
+
+.tableau-rib {
+	width: 50%;
+	border: 1px solid;
+	border-color: gray;
+}
+
+.tableau-rib td {
+	height: 20px;
+	border-bottom: none;
+	border-right: 1px dashed;
+	border-color: gray;
+}
+
+.tableau-rib th {
+	border-bottom: 1px dashed;
+	border-right: 1px dashed;
+	text-align: center;
+	border-color: gray;
+}
+
+
+
+
+td, th {
+	text-align: center;
+}
+.designations-table th:first-child {
+	text-align: left;
+}
+
+
+
+
+.garder_samepage { 
+       page-break-inside:avoid;
+    }
+
+
+
+.footer {
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	left: 50%;
+}
+.footer-content {
+	position: relative;
+	left: -50%;
+}

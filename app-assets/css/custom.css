@@ -1,0 +1,81 @@
+
+/* Background page login */
+
+html body.bg-full-screen-image {
+    background: url(/app-assets/images/wats/connexion/bg-2.jpg);
+    background-size: cover;
+}
+
+
+/* Menu */
+.crm-text {
+	animation: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0s normal forwards 1 fadein;
+	color:#fff;
+	font-size: 0.75rem;
+    padding-top: 10px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.main-menu.menu-light .navigation > li.open > a {
+	border-color: #FF394F;
+}
+
+/* Bouton tableau récap factures en attente dashboard */
+a:not([href]):not([tabindex]) {
+    color: #ffffff;
+}
+
+/* Marges tableaux mobile */ 
+@media (max-width: 650px) {
+    .content-body {
+        margin-top: 10%;
+    }
+}
+
+/* Position Label form */
+label.col-md-3.label-control {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Champ obligatoires fomr */
+.required {
+    color:#d6001c;
+}
+
+.label-control {
+    text-align: right;
+}
+
+.detail_facture {
+    margin-top:30px;
+    margin-bottom: 30px;
+    padding-left: 13.5%;
+}
+
+/* Masquer moyen de paiement */
+#moyen_de_paiement {
+    display: none;
+}
+
+/* PDF Facture */
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.text-md-left {
+    display:inline;
+}
+
+.text-md-right {
+    display:inline;
+    float:right;
+}
